@@ -1,0 +1,439 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "GT America";
+    src: url("resources/Fonts/GT-America-Extended-Bold-Trial.otf") format("opentype")        
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("resources/Fonts/Graphik-Regular-Trial.otf") format("opentype");;
+}
+
+
+p{
+    font-family: Graphik;
+    font-size: 1rem;
+}
+.HeaderOne {
+  color: #001859;
+  font-family: "GT America";
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.105rem;
+}
+
+.HeaderTwo{
+  color: #001859;
+  font-family: "GT America";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.075rem;    
+}
+
+.HeaderThree {
+  color: #000;
+  font-family: "GT America";
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  padding-top: 20px;
+}
+
+.body{
+    font-family: "Graphik";
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: normal;
+    color: #000E34;
+    padding-top: 20px;
+}
+
+.bodytwo{
+    font-family: "Graphik";
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: normal;
+    color: #000E34;
+    padding-top: 16px;
+}
+
+.PriBtn-big{
+    padding: 18px 56px;
+    background-color: #0135C1;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #fff;
+    display: inline-block;
+    transition: 400ms ease-in;
+    
+}
+
+.PriBtn-big:hover{
+    padding: 18px 56px;
+    background-color: #002790;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #fff;
+}
+
+.PriBtn-sm{
+    padding: 14px 32px;
+    background-color: #0135C1;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #fff;
+    transition: 400ms ease-in;
+}
+
+.PriBtn-sm:hover{
+    padding: 14px 32px;
+    background-color: #002790;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #fff;
+}
+
+.SecBtn-big{
+    padding: 18px 56px;
+    border: 1px solid #0135C1;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #0135C1;
+    display: inline-block;
+    margin-left: 20px;
+    transition: 400ms ease-in;
+}
+
+.SecBtn-big:hover{
+    padding: 18px 56px;
+    border: 1px solid #0135C1;
+    background-color: #E5ECFF;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #0135C1;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.SecBtn-sm{
+    padding: 14px 32px;
+    border: 1px solid #0135C1;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #0135C1;
+    transition: 400ms ease-in;
+}
+
+.SecBtn-sm:hover{
+    padding: 14px 32px;
+    border: 1px solid #0135C1;
+    background-color: #E5ECFF;
+    border-radius: 6px;
+    font-family: Graphik;
+    color: #0135C1;
+}
+
+nav{
+    padding: 24px 72px;
+    background-color: #FAFBFF;
+    width: 100%; 
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lft-container{
+    display: inline-flex;
+}
+
+.links{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 16px;
+    margin: auto 0;
+}
+
+.list{
+    display: inline-block;
+    font-family: Graphik;
+    padding-left: 40px;
+}
+
+.list-rgt{
+    display: inline-block;
+    font-family: Graphik;
+    padding-left: 24px;
+}
+
+.HeroSctn{
+    background-color: #FAFBFF;
+    padding-left: 72px;
+}
+
+.content-container{
+    max-width: 42%;
+    padding: 100px 0;
+}
+
+.BtnGroup{
+    padding-top: 32px;
+}
+
+.FeatureSctn{
+    background-color: #fff;
+    padding: 0 72px;
+}
+
+.content-container2{
+    max-width: 50%;
+    padding: 88px 0;
+}
+
+.FeatCont{
+    display: flex;
+    align-items: center;
+    padding-bottom: 160px;
+}
+
+.FeatImg{
+    width: 49%;
+    height: auto;
+    
+}
+
+.right{
+    padding-left: 110px;
+    width: 49%;
+}
+
+.FeatImg img{
+    max-width: 100%;
+    height: auto;
+}
+
+.Label{
+    display: flex;
+    align-items: center;
+}
+
+.icon-label{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.icon-label img{
+    max-width: 100%;
+}
+
+.UppercaseLabel{
+    font-family: Graphik;
+    text-transform: uppercase;
+    color: #0135C1;
+    padding-left: 8px;
+}
+
+.BenefitsSctn{
+    background: linear-gradient(#012EA7, #001246);
+    padding: 0 72px;;
+}
+
+.content-container3{
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 88px 0;
+}
+
+.white{
+    color: #fff;
+}
+
+.BenefitsCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 288px;
+    padding-top: 55px;
+}
+
+.left{
+    padding-right: 110px;
+    width: 42%;
+}
+
+
+.logo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 32px 5px;
+    justify-content: space-evenly;
+}
+
+.grid-item{
+    max-height: 48px;
+    width: auto;
+    margin: 0 auto;    
+}
+
+.grid-item img{
+    height: 100%;
+}
+
+.DownloadSctn{
+    display: flex;
+    margin: 115px 72px;
+    padding: 0 64px;
+    background-color: #F1F4FF;
+    border-radius: 24px;
+    height: 448px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContCta{
+    max-width: 52%;
+}
+
+.content-container4{
+    max-width: 100%;
+}
+
+.CTA{
+    margin-top: 32px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.CTA img{
+    max-height: 100%;
+    width: auto;
+    display: inline-block;
+}
+
+.PhoneImg{
+    display: inline-block;
+    max-height: 100%;
+}
+
+.PhoneImg img{
+    height: 100%;
+    width: auto;
+}
+
+.FAQSctn{
+    background: #fff;
+    padding: 0 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.ques-list{
+    width: 45%;
+}
+
+.ques{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 0.5px #DCDEE4 solid;
+    justify-content: space-between;
+}
+
+.ask{
+    font-family: "GT America";
+    font-size: 1.2rem;
+    color: #001859;
+}
+
+.FinalCta{
+    background-color: #FAFBFF;
+    padding-left: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FinalCta-Img{
+    width: 45%
+}
+
+.FinalCta-Img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.FooterSctn{
+    padding: 120px 72px 0 72px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Footsoilders{
+    display: flex;
+    margin-bottom: 88px;
+}
+
+
+
+.FooterLinks{
+    margin-left: 80px;
+}
+
+.FooterLinks ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.HeadingLink{
+    font-family: Graphik;
+    font-size: 1.2rem;
+}
+
+.FooterLinksList{
+    font-family: Graphik;
+    font-size: 1rem;
+    padding-top: 16px;
+}
+
+.PhoneCTA{
+    width: auto;
+}
+
+.FootCTA{
+    margin-top: 16px;
+    margin-bottom: 49px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.FootCTA img{
+    max-height: 100%;
+    width: auto;
+    display: inline-block;
+}
